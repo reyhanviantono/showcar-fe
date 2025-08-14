@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +35,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-newLight, .homepage-container {
+  background-color: black;
+  color: white;
+}
+
+.card-container{
+  background-color: #909497;
+  color: white;
+}
+
+
+
+
+.jumbotron-custom {
+  background-image: url("https://jeepjakartaofficial.com/wp-content/uploads/2021/07/background-jeep-top-tipe-mobil.jpg");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.jumbotron-custom .container {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.car-detail-container {
+  margin-top: 20px;
+}
+.car-image {
+  max-width: 100%;
+  height: auto;
+}
+.rating {
+  font-size: 1.25rem;
+  color: #f39c12;
+}
+.rating span {
+  color: #ccc;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-title {
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
 }
