@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import { saveToken, saveUser } from "./LocalStorage";
 
 // var apiURL = "http://localhost:8000/api";
-var apiURL = "http://show-car.my.id/api";
+var apiURL = "https://show-car.my.id/api";
 // var apiURL = "https://028b-110-138-82-238.ngrok-free.app/api";
 
 export const Login = async (payload) => {
